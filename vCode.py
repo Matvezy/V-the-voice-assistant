@@ -180,4 +180,5 @@ def process_text(input):
         assistant_speaks("I don't understand, I can search the web for you, Do you want to continue?")
         ans = get_audio()
         if 'yes' in str(ans) or 'yeah' in str(ans):
-            search_web(input) 
+            search_web(input)
+#still going on
